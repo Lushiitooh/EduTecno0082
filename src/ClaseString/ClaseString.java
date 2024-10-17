@@ -14,18 +14,21 @@ import java.util.Scanner;
 
 public class ClaseString {
     public static void main(String[] args) {
-
-        /*String texto;
+        Scanner sc = new Scanner(System.in);
+        String texto;
         System.out.println("Escribe el texto: ");
         texto = sc.nextLine();
-        //texto.length()
+        System.out.println("Ingrese un caracter: ");
+        String caracter = sc.nextLine();
+        //length - calcula la cantidad de caracteres en una cadena de texto
+        texto.length();
         int cantidadTexto = texto.length();
         System.out.println("Longitud de texto: "+ cantidadTexto );
 
         String textoMayusculas = texto.toUpperCase();
         System.out.println("Texto en mayúsculas: " + textoMayusculas);
-        //texto.startsWith
 
+        //texto.startsWith
         if(texto.startsWith("A")){
             System.out.println("La cadena empieza con A");
         }else if(texto.startsWith("a")) {
@@ -34,7 +37,7 @@ public class ClaseString {
             System.out.println("Empieza con otra cosa");
         }
 
-        /*if(texto.startsWith("A") || texto.startsWith("a")){
+        if(texto.startsWith("A") || texto.startsWith("a")){
             System.out.println("La cadena empieza con A o a");
         }else{
             System.out.println("Empieza con otra cosa");
@@ -49,7 +52,7 @@ public class ClaseString {
 
         }
 
-5.- solicite al usuario que ingrese una cadena de texto y luego un caracter
+/*5.- solicite al usuario que ingrese una cadena de texto y luego un caracter
 y que imprima la posicion de la primera aparicion de ese caracter indexOf(‘caracter’)
 6. solicite al usuario que ingrese una cadena de texto y luego un caracter
 y que imprima la posicion del ultimo aparicion de ese caracter lastIndexOf(‘caracter’)
@@ -63,23 +66,22 @@ ignorando los espacios.
 cadena de texto.
       */
         // 5.
-        /*System.out.println("Ingrese una cadena de texto: ");
-        String texto = sc.nextLine();
-        System.out.println("Ingrese un caracter: ");
-        String caracter = sc.nextLine();
+        //System.out.println("Ingrese una cadena de texto: ");
+        //String texto = sc.nextLine();
+
         int indicePrimeraLetra = texto.indexOf(caracter);
         System.out.println("El indice de esa letra es: " + indicePrimeraLetra);
-        */
-        Scanner sc = new Scanner(System.in);
+
+
         //6. solicite al usuario que ingrese una cadena de texto y luego un caracter
         //y que imprima la posicion del ultimo aparicion de ese caracter lastIndexOf(‘caracter’)
-        /*System.out.println("Ingrese un una cadena de texto: ");
-        String texto = sc.nextLine();
-        System.out.println("Ingrese un caracter: ");
-        String caracter = sc.nextLine();
+        //System.out.println("Ingrese un una cadena de texto: ");
+        //String texto = sc.nextLine();
+        //System.out.println("Ingrese un caracter: ");
+        //String caracter = sc.nextLine();
         int indiceUltimaLetra = texto.lastIndexOf(caracter);
         System.out.println("La posicion de caracter es: " + indiceUltimaLetra);
-*/
+
         // 7. charAt(n) Verifica si la cadena empieza con la letra "A" o "a"
         System.out.println("Ingrese un texto: ");
         String texto2 = sc.nextLine();
