@@ -10,7 +10,7 @@ Solicita al usuario que introduzca una cadena de texto y realiza las siguientes 
 
  */
 
-package ClaseString;
+package clasestring;
 import java.util.Scanner;
 
 public class ClaseString {

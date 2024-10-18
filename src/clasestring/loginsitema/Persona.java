@@ -1,4 +1,4 @@
-package ClaseString;
+package clasestring.loginsitema;
 
 public class Persona {
 

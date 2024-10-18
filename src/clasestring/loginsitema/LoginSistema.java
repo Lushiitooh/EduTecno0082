@@ -21,7 +21,7 @@ usuario: que es el nombre de usuario.(listo)
 contraseña: que es la clave de acceso.(listo)
 
 */
-package ClaseString;
+package clasestring.loginsitema;
 
 
 import java.util.ArrayList;
@@ -96,7 +96,7 @@ public class LoginSistema {
                     }
                     default:
                         System.out.println("Opción no válida");
-                    
+
                 }
             } while (opcion != 4);
         }else{
